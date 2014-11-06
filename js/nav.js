@@ -1,9 +1,5 @@
 jQuery(document).ready(function(){
-
-    jQuery('.nav-but').click(function() {
-            jQuery('.options').toggle();
+    jQuery('body').on('touchstart.nav','.nav-but',function() {
+            jQuery(this).siblings('.options').slideToggle();
     });
-
-
-
 });
