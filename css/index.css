@@ -165,6 +165,9 @@ html {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
+.mask {
+  background-color: rgba(0,0,0,0.4);
+}
 .header {
   height: 100px;
   background-color: #666;
